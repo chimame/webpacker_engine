@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = WebpackerEngine::VERSION
   s.authors     = [""]
   s.email       = [""]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of WebpackerEngine."
-  s.description = "TODO: Description of WebpackerEngine."
+  s.homepage    = "https://github.com/chimame/webpacker_engine"
+  s.summary     = "Summary of WebpackerEngine."
+  s.description = "Description of WebpackerEngine."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
