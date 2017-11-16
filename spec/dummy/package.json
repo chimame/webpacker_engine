@@ -1,5 +1,7 @@
 {
   "name": "dummy",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "webpacker_engine": "file:../.."
+  }
 }
