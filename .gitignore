@@ -5,8 +5,10 @@ capybara-*.html
 .rspec
 /log
 /tmp
-/db/*.sqlite3
-/db/*.sqlite3-journal
+/spec/dummy/db/*.sqlite3
+/spec/dummy/db/*.sqlite3-journal
+/spec/dummy/public/packs
+/spec/dummy/public/packs-test
 /public/system
 /coverage/
 /spec/tmp
@@ -46,3 +48,6 @@ bower.json
 .byebug_history
 
 Gemfile.lock
+
+/node_modules/
+/spec/dummy/node_modules/
